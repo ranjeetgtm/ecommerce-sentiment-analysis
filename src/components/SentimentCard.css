@@ -1,0 +1,29 @@
+.sentiment-card {
+  border-radius: 12px;
+  padding: 10px 12px;
+  width: 90px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.sentiment-title {
+  font-size: 13px;
+}
+
+.sentiment-title.positive {
+  color: #10b981;
+}
+
+.sentiment-title.neutral {
+  color: #f59e0b;
+}
+
+.sentiment-title.negative {
+  color: #ef4444;
+}
+
+.sentiment-value {
+  font-size: 15px;
+  margin-top: 4px;
+}

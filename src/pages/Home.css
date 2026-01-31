@@ -1,0 +1,50 @@
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-bar input:focus {
+  border-color: #ff6801;
+  box-shadow: 0 0 5px rgba(255, 104, 1, 0.5);
+}
+
+
+.home .products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  padding: 20px;
+}
+
+.product-with-sentiment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.sentiment-cards {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.reviews-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

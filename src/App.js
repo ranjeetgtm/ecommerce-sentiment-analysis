@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+
+export default function App() {
+  const [cart, setCart] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header cart={cart} />
+      <Routes>
+        <Route path="/" element={<Home cart={cart} setCart={setCart} />} />
+        <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
-
-export default App;

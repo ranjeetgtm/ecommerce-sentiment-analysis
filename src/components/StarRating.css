@@ -1,0 +1,12 @@
+.stars span {
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.stars .full {
+  color: #facc15;
+}
+
+.stars .empty {
+  color: #d1d5db;
+}

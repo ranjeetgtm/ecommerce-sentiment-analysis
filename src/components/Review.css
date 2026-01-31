@@ -1,0 +1,36 @@
+.review-card {
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.review-header strong {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.review-rating span {
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.review-rating .full {
+  color: #facc15;
+}
+
+.review-rating .empty {
+  color: #9ca3af;
+}
+
+.review-comment {
+  font-size: 14px;
+  color: #374151;
+}
