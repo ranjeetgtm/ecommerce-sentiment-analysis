@@ -78,7 +78,7 @@ const products = [
     sentiment: { positive: 55, neutral: 30, negative: 15 },
     reviewsList: [
       { reviewer: "Beepin Bc", comment: "ramro cha ddheraii dherai", rating: 5 },
-      { reviewer: "Anish chettri", comment: "Very comfortable.", rating: 4 },
+      { reviewer: "Anish chettri", comment: "Very comfortable.", rating: 1 },
     ],
   },
 ];
