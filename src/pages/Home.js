@@ -38,7 +38,7 @@ const products = [
     image: strippedshirt,
     sentiment: { positive: 50, neutral: 30, negative: 20 },
     reviewsList: [
-      { reviewer: "sandesh Bhandari", comment: "Loved this hoodie!", rating: 4 },
+      { reviewer: "sandesh Bhandari", comment: "Loved this shirt!", rating: 4 },
       { reviewer: "Sujan Bashyal", comment: "Very comfortable and cloth quality also nice", rating: 4 },
     ],
   },
